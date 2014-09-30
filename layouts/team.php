@@ -11,7 +11,7 @@
     <main id="site-body">
       <section id="site-content">
         <?php 
-			echo team_members('Kaspar Naaber', 'kaspar.naaber@khk.ee', 'kaspar.naaber@khk.ee');
+			echo team_members('Kaspar Naaber', 'kaspar.naaber@khk.ee', 'Arvutid');
 			echo team_members('Peeter Kartul', 'peeter.kartul@khk.ee', 'Jalgrattad');
 			echo team_members('Erki Nool', 'erki.nool@khk.ee', 'Jalgpall');
 			echo team_members('Timo Tigu', 'timo.tigu@khk.ee', 'Raamatud');
