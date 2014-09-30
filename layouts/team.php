@@ -10,41 +10,14 @@
 
     <main id="site-body">
       <section id="site-content">
-        <div class="team-member">
-          <h2 class="member-name">Kaspar Naaber</h2>
-          <div class="member-info"><span>E-mail: </span><a href="mailto:kaspar.naaber@khk.ee">kaspar.naaber@khk.ee</a></div>
-          <div class="member-info"><span>Huvialad: </span>Arvutid</div>
-        </div>
-
-        <div class="team-member">
-          <h2 class="member-name">Peeter Kartul</h2>
-          <div class="member-info"><span>E-mail: </span><a href="mailto:peeter.kartul@khk.ee">peeter.kartul@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Jalgrattad</div>
-        </div>
-
-        <div class="team-member">
-          <h2 class="member-name">Erki Nool</h2>
-          <div class="member-info"><span>E-mail: </span><a href="mailto:erki.nool@khk.ee">erki.nool@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Jalgpall</div>
-        </div>
-
-        <div class="team-member">
-          <h2 class="member-name">Timo Tigu</h2>
-          <div class="member-info"><span>E-mail: </span><a href="mailto:timo.tigu@khk.ee">timo.tigu@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Raamatud</div>
-        </div>
-
-        <div class="team-member">
-          <h2 class="member-name">Silver Kuu</h2>
-          <div class="member-info"><span>E-mail: </span><a href="mailto:silver.kuu@khk.ee">silver.kuu@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Peod</div>
-        </div>
-
-        <div class="team-member">
-          <h2 class="member-name">Tauno Päike</h2>
-          <div class="member-info"><span>E-mail: </span><a href="mailto:tauno.paike@khk.ee">tauno.paike@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Kalastamine</div>
-        </div>
+        <?php 
+			echo team_members('Kaspar Naaber', 'kaspar.naaber@khk.ee', 'kaspar.naaber@khk.ee');
+			echo team_members('Peeter Kartul', 'peeter.kartul@khk.ee', 'Jalgrattad');
+			echo team_members('Erki Nool', 'erki.nool@khk.ee', 'Jalgpall');
+			echo team_members('Timo Tigu', 'timo.tigu@khk.ee', 'Raamatud');
+			echo team_members('Silver Kuu', 'silver.kuu@khk.ee', 'Peod');
+			echo team_members('Tauno Päike', 'tauno.paike@khk.ee', 'PHP');
+        ?>
       </section>
     </main>
 
